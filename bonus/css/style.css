@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 header{
-    background-color: pink;
+    background-image: url(../img/sfondo.webp);
+    background-size: cover;
     height: 150px;
     text-align: center;
         /* header bloccato */
@@ -16,7 +17,7 @@ header{
 }
 
 h1{
-    color: white;
+    color: palevioletred;
     font-size: 70px; 
     position: absolute;
     top: 30%;
@@ -24,7 +25,7 @@ h1{
 }
 
 body{
-    background-color: rgb(253, 226, 230);
+    background-color: rgb(245, 204, 210);
 }
 
 #blocco-articoli{
@@ -109,12 +110,12 @@ max-height: 100%;
 /* Bonus */
 
 .product:hover .heart{
-    color: rgb(253, 2, 86);
+    color: rgb(223, 59, 223);
     background-color: cornsilk;
     
 }
 
 .product:hover .product-name{
-    color: blue;
+    color: purple;
 }
 
