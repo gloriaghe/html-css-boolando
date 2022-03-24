@@ -48,6 +48,10 @@ max-height: 100%;
     color: red;
 }
 
+.prezzo-originale{
+    text-decoration: line-through;
+}
+
  /* CARTELLINI */
 
 .sconto{
