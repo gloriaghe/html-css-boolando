@@ -8,6 +8,7 @@
     margin-left: 170px ;
     margin-right: 170px;
     margin-top: 30px;
+    margin-bottom: 30px;
     height: auto;
     font-size: 12px;
 }
@@ -28,13 +29,15 @@ max-height: 100%;
     color: red;
 }
 
+ /* CARTELLINI */
+
 .sconto{
     background-color: rgb(214, 7, 69);
     color: white;
     padding: 4px;
     position: absolute;
     left: 0;
-    bottom: 100px;
+    bottom: 60px;
 }
 
 .sostenibile{
@@ -42,8 +45,8 @@ max-height: 100%;
     color: white;
     padding: 4px;
     position: absolute;
-    left: 50px;
-    bottom: 100px;
+    left: 40px;
+    bottom: 60px;
 }
 
 .heart{
@@ -53,4 +56,10 @@ max-height: 100%;
     position: absolute;
     top: 20px;
     right: 0;
+}
+
+/* SOSTENIBILTà SPOSTATO */
+
+.singlelabel{
+    left: 0;
 }
