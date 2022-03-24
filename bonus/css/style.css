@@ -7,7 +7,12 @@ header{
     background-color: pink;
     height: 150px;
     text-align: center;
-    position: relative;
+        /* header bloccato */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 h1{
@@ -25,11 +30,11 @@ body{
 #blocco-articoli{
     margin-left: 170px ;
     margin-right: 140px;
-    margin-top: 30px;
     margin-bottom: 30px;
     height: auto;
     font-size: 12px;
     background-color: rgb(253, 226, 230);
+    margin-top: 180px;
 }
 
 .product{
@@ -112,3 +117,4 @@ max-height: 100%;
 .product:hover .product-name{
     color: blue;
 }
+
